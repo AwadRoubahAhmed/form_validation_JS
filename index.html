@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-validation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login/Register</h1>
+      <form action="#" class="form" id="form">
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            class="username"
+            placeholder="username"
+          />
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-xmark"></i>
+          <small>Error Message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" id="email" class="email" placeholder="email" />
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-xmark"></i>
+          <small>Error Message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" class="Password" />
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-xmark"></i>
+          <small>Error Message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" class="confirmPassword" />
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-xmark"></i>
+          <small>Error Message</small>
+        </div>
+        <button class="submit">Submit</button>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
